@@ -1373,4 +1373,19 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
-}/*# sourceMappingURL=main.css.map */
+}
+
+@media (max-width: 600px) {
+  .message {
+    bottom: 50px;
+    width: calc(100vw - 24px);
+    height: auto;
+    max-height: none;
+    padding: 8px 10px;
+    font-size: clamp(18px, 5vw, 40px);
+    line-height: 1.1;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
